@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-container{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(63, 145, 172, 0.822);
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.header-container a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.logo{
+    margin-right: auto;
+    font-size: 2rem; 
+    font-weight: 700;
+}
+.login-div{
+    height: 77vh;
+    margin-top: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section{
+    height: 600px;
+    width: 100vw;
+    background-image: url(./assets/natalya-zaritskaya-SIOdjcYotms-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem; 
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero-text{
+    margin-left: 50px; 
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.82);
+}
+.hero-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem; 
+    font-weight: 400; 
+}
+.quote-area{
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes-area{
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.443);
+
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box1, .box2 , .box3{
+    border-radius: 20px;
+    height: 180px;
+    width: 31rem;
+    background-color: rgba(179, 240, 255, 0.721);
+    display: flex;
+    align-items: center;
+}
+.home-ins{
+    height: 50px;
+    width: 50px;
+    background-image: url(./assets/home.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20px 0 20px;
+}
+.car-ins{
+    height: 50px;
+    width: 50px;
+    background-image: url(./assets/car.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20px 0 20px;
+}
+.life-ins{
+    height: 50px;
+    width: 50px;
+    background-image: url(./assets/life.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 20px 0 20px;
+}
+.footer{
+    height: 4rem;
+    width:100vw;
+    background-color: rgba(39, 92, 109, 0.822);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
